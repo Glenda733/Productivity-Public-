@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/*Configurações gerais da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-image:url(https://img.freepik.com/free-photo/top-view-person-writing-laptop-with-copy-space_23-2148708035.jpg?w=900&t=st=1670624481~exp=1670625081~hmac=4c68aaa86bca07dde89588dd6507385fc4a7b38d37c3c500a4f2cbee7d4097f4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo-nav{
+    width: 60%;
+}
+
+
+.navbar-nav mr-auto{
+    place-items: center;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #E75575;
+}
+
